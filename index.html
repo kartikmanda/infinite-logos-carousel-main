@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="logos">
+    <div class="logos-slide">
+      <a href="#">
+        <img src="./logos/3m.svg" alt="3m">
+      </a>
+      <a href="#">
+        <img src="./logos/barstool-store.svg" alt="barstool">
+      </a>
+      <a href="#">
+        <img src="./logos/budweiser.svg" alt="budweiser">
+      </a>
+      <a href="#">
+        <img src="./logos/buzzfeed.svg" alt="buzzfeed">
+      </a>
+      <a href="#">
+        <img src="./logos/forbes.svg" alt="forbes">
+      </a>
+      <a href="#">
+        <img src="./logos/macys.svg" alt="macys">
+      </a>
+      <a href="#">
+        <img src="./logos/menshealth.svg" alt="menshealth">
+      </a>
+      <a href="#">
+        <img src="./logos/mrbeast.svg" alt="mrbeast">
+      </a>
+    </div>
+  </section>
+
+  <script>
+    const copy = document.querySelector(".logos-slide").cloneNode(true);
+    document.querySelector(".logos").appendChild(copy);
+  </script>
+</body>
+
+</html>
